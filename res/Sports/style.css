@@ -38,12 +38,11 @@
 .img-comp-container {
     position: relative;
     height: 500px; /*should be the same height as the images*/
-    left: 250px;
 }
     
 .img-comp-img {
     position: absolute;
-    width: auto;
+    width: 100%;
     height: auto;
     overflow:hidden;
 }
@@ -68,15 +67,16 @@
 .slide{
     width: 800px;
     height: 500px;
-    background-color: #2196F3;
+    background-color: #d1f5d6;
     margin-left: 300px;
+    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .box1{
-    background-color: blue;
+    background-color: rgb(126, 170, 144);
     width: 200px;
     height: 400px;
     border-radius: 20px;
@@ -91,7 +91,6 @@
 }
 
 i{
-    margin-top: 20px;
     margin-left: 20px;
 }
 
